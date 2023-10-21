@@ -35,7 +35,7 @@ model_ts*.txt
 .idea
 .vscode
 _darcs
-
+onepage.py
 # demo 
 **/node_modules
 yarn.lock
