@@ -18,7 +18,7 @@ wheels/
 *.npy
 *.ts
 model_ts*.txt
-
+*.pth
 # onnx models
 *.onnx
 
@@ -40,3 +40,4 @@ _darcs
 **/node_modules
 yarn.lock
 package-lock.json
+/notebooks
