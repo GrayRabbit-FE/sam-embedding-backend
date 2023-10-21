@@ -12,7 +12,7 @@ print(torch.cuda.is_available())
 # checkpoint = "sam_vit_b_01ec64.pth"
 print(time.time())
 # set large model related configs
-checkpoint = "notebooks/sam_vit_h_4b8939.pth"
+checkpoint = "sam_vit_h_4b8939.pth"
 model_type = "vit_h"
 sam = sam_model_registry[model_type](checkpoint=checkpoint)
 sam.to(device='cuda')
