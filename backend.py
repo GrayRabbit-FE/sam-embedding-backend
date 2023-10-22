@@ -48,5 +48,5 @@ def index():
         return 'Content-Type not supported!'
 
 
-app.run(port=2020, host="0.0.0.0", debug=True)
+# app.run(port=2020, host="0.0.0.0", debug=True)
 print('server starts working')
