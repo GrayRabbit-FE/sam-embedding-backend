@@ -48,5 +48,5 @@ def index():
         return 'Content-Type not supported!'
 
 
-server = pywsgi.WSGIServer(('127.0.0.1', 80), app)
-server.serve_forever()
+app.run(port=2020, host="0.0.0.0", debug=True)
+print('server starts working')
