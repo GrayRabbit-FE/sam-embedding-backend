@@ -38,6 +38,7 @@ def index():
     if (content_type == 'application/json'):
         print('start calculate embedding')
         base64data = request.get_json()['imgurl']
+        print(base64data)
         image = base64_to_image(base64data)
         predictor.set_image(image)
         image_embedding = predictor.get_image_embedding().cpu().numpy()
